@@ -21,7 +21,7 @@ namespace RingingBloom.WWiseTypes
             {
                 xml.WriteStartElement("Source");
                 xml.WriteAttributeString("Path", wavs[i]);
-                xml.WriteAttributeString("Conversion", "Vorbis Quality High");//should make this variable, but this is fine so far
+                xml.WriteAttributeString("Conversion", "ADPCM As Input");
                 xml.WriteEndElement();
             }
             xml.WriteEndElement();
